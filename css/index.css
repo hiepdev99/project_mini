@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+    /* 1rem = 10px*/
+}
+body{
+    font-family: 'Rufina', serif;
+    line-height: 1;
+    font-weight: 700;
+    margin: 0 10% 0 10%;
+    padding: 0 0 30px 0;
+}
+.feature__header{
+    background-color: var(--bg-light);
+    padding: 30px auto 30px 0;
+    display: inline-flex;
+    text-align: center;
+}
+.feature__img-top{
+    margin: 0 auto 10px;
+    width: 400px;
+    height: 400px;
+}
+.feature__heading{
+    font-size: 1.8rem;
+    line-height: 1.6;
+    text-transform: uppercase;
+    color: var(--heading);
+    margin-bottom: 1.9rem;
+    text-align: center;
+    font-weight: bold;
+}
+.item{
+    margin: 50px 20px;
+}
+.button{
+    
+    background-color: chartreuse;
+    border: 1px solid black;
+}
